@@ -7,12 +7,18 @@ gem 'rails', '3.1.1'
 
 gem 'sqlite3'
 
+# Devise - LDAP authentication
+gem 'devise', '2.0'
+gem 'devise_ldap_authenticatable', '0.6.0'
+
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
   gem 'sass-rails',   '~> 3.1.4'
   gem 'coffee-rails', '~> 3.1.1'
   gem 'uglifier', '>= 1.0.3'
+
+  gem 'haml-rails', '0.3.4'
 end
 
 gem 'jquery-rails'
